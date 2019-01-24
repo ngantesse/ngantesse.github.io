@@ -146,52 +146,14 @@ body {
   <div class="main">
     <h2>Choose the best word to complete the sentence</h2>
     <div class="fakeimg" style="height:200px;">Image</div>
-    {
-      question: "I don’t think John looks well. He seems ...",
-      answers: {
-        a: "fairly tired",
-        b: "fair tired",
-        c: "fair tiredly"
-      },
-      correctAnswer: "a"
-    },
-{
-      question: "If it … convenient, let’s go out for a drink tonight",
-      answers: {
-        a: "be",
-        b: "was",
-        c: "is"
-      },
-      correctAnswer: "c"
-    },
-{
-      question: "If you … time, please write to me ",
-      answers: {
-        a: "have",
-        b: "had",
-        c: "had had"
-      },
-      correctAnswer: "a"
-    },
-{
-      question: "If someone … in here with a gun, I’d be very frightened",
-      answers: {
-        a: "would walk",
-        b: "had walked",
-        c: "walked"
-      },
-      correctAnswer: "c"
-    },
-{
-      question: "That would happen if you … to work tomorrow?",
-      answers: {
-        a: "didn’t go",
-        b: "won’t go",
-        c: "don’t go"
-      },
-      correctAnswer: "a"
-    },
-
+  <div class="quiz-container">
+  <div id="quiz"></div>
+</div>
+<button id="previous">Previous Question</button>
+<button id="next">Next Question</button>
+<button id="submit">Submit Quiz</button>
+<div id="results"></div> 
+<script  src="/js/index.js"></script>
     <br>
     <h2>TITLE HEADING</h2>
     <h5>Title description, Sep 2, 2017</h5>
